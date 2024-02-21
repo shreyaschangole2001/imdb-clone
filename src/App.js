@@ -17,7 +17,7 @@ function App() {
         <Route path={routePath.home} element={<Home/> }  />
         <Route path={routePath.categories} element={<CategoryMovies/> }  />
         <Route path={routePath.upcoming} element={<Upcoming/> }  />
-        {/* <Route path={routePath.invalid} element={<Home/>}/> */}
+        <Route path={routePath.invalid} element={<Home/>}/>
       </Routes>
       
     </Router>
